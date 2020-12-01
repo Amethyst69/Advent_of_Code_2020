@@ -9,6 +9,10 @@ def solution():
                 return inp[n] * k
         inp.pop(n)
 
+# Runtime complexity: O(n)
+def alternative_solution():
+    return [i * (2020 - i) for i in inp if (2020 - i) in inp][0]
+
 
 if __name__ == "__main__":
     result = solution()
