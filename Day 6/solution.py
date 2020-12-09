@@ -15,4 +15,4 @@ def part_two():
 if __name__ == '__main__':
     groups = open('input.txt').read().split('\n\n')
     print("Part 1:", part_one())
-    print("Part 2:", part_one())
+    print("Part 2:", part_two())
