@@ -27,11 +27,9 @@ def part_two():
         if s > target:
             s -= inp[left]
             left += 1
-        print(f"{left=} {right=}")
 
     return min(inp[left:right]) + max(inp[left:right])
         
-
 
 if __name__ == '__main__':
     inp = [int(i) for i in open("input.txt").read().split("\n")]
